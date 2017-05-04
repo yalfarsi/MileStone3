@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="RestaurentApp.exe" version="1.0.0.5" publicKeyToken="e4ccef522e8d5a54" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="logo1.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="RestaurentApp" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="RestaurentApp.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Microsoft.VisualBasic.PowerPacks.dll" size="352256">
+      <assemblyIdentity name="Microsoft.VisualBasic.PowerPacks" version="9.0.0.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>ge3qaWpdQthkHqvQPFfRHEI2kVtIQVfVJ0MEY0RDClA=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="RestaurentApp.exe" size="1430008">
+      <assemblyIdentity name="RestaurentApp" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>iBXIXz25ewIP02WcpEk1cslsbh+ITTZeWi3G8pWPde8=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="logo1.ico" size="99262">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Cf5f4gu7aanI3pbHxw2kO/J5WA+mU8lnPGfmMYhKHWA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Microsoft.VisualBasic.PowerPacks.xml" size="255989">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>kDUarhfxaljR+wvfAebbhSuwX7LKmrFe3w4xjIg63Ic=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="RestaurentApp.exe.config" size="706">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ay78tsKcc7yBNZrCJnL+CYTFYCmYBPKlqLXmb3xecjg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="THT_Databese.accdb" size="790528">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>d85EoHRfTBHACJaySOqAEjhvAZvZLOUp5cq6Af9RPpQ=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-CPS1N29\prosenjit" issuerKeyHash="7022ac98738ab33888aff608f4f4ebead46b2c50" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>djEanRp+8jF+6ljP2dDE/QpdQlT6wOW9tmZpae0pUuQ=</DigestValue></Reference></SignedInfo><SignatureValue>WP/muIqu69B/fSfKLiuBQwqaRVb9a/oEDMhu/kzFf5qWdW204qLpmBqTQPvR0cn1CRUJjQauGyO8Ndjg4+Tn1T81h0AApN8XBN+m7kjozxaP7DE+3DTO57QJoSYpRCyViO6ZFC3zM+49oN9x/PwssLxRqYSIHM2QnaJpVROwcPI=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>nENIK4IDRhoYwTb7bDG7WKdcTz2UbXwTLzjXSICp3qGDWL84I5x6cpxgjM7W5or6P8/6r/blzP5PuDVuX2ptBHYuZeDh9SS1jjQni45lJDxLo7SuzOQD3yS+1j1u1XYDdYS/5rVotN1hzZGwS+TnkXFglS47OiIFlEArnzCI7/0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="e45229ed696966b6bde5c0fa54425d0afdc4d0d9cf58ea7e31f27e1a9d1a3176" Description="" Url=""><as:assemblyIdentity name="RestaurentApp.exe" version="1.0.0.5" publicKeyToken="e4ccef522e8d5a54" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-CPS1N29\prosenjit</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>oJUO01EkQK2qlrAKjzXTnG7Kw1y/zI3tpFTj0KsxFe0=</DigestValue></Reference></SignedInfo><SignatureValue>gwxykxt97kWlMybhNeJudJy39dIq5xXiaZ5ZPpp0s3VjgFt9aqebVIhiK7ugIpYrW1SC7isoPbiUZM5nnNvBBoR4jKTPiMz1KSKerHML03yQ7okswfTwSRa+cdxDbAGBChRpCsKUJQekhfp5pH18ol/6VlUqQ8bxP63TF91DGQY=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>nENIK4IDRhoYwTb7bDG7WKdcTz2UbXwTLzjXSICp3qGDWL84I5x6cpxgjM7W5or6P8/6r/blzP5PuDVuX2ptBHYuZeDh9SS1jjQni45lJDxLo7SuzOQD3yS+1j1u1XYDdYS/5rVotN1hzZGwS+TnkXFglS47OiIFlEArnzCI7/0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB/TCCAWagAwIBAgIQXTyfkQ9t1bVKCKmy9YegFzANBgkqhkiG9w0BAQsFADA9MTswOQYDVQQDHjIARABFAFMASwBUAE8AUAAtAEMAUABTADEATgAyADkAXABwAHIAbwBzAGUAbgBqAGkAdDAeFw0xNzAyMjAxODEzMjNaFw0xODAyMjEwMDEzMjNaMD0xOzA5BgNVBAMeMgBEAEUAUwBLAFQATwBQAC0AQwBQAFMAMQBOADIAOQBcAHAAcgBvAHMAZQBuAGoAaQB0MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCcQ0grggNGGhjBNvtsMbtYp1xPPZRtfBMvONdIgKneoYNYvzgjnHpynGCMztbmivo/z/qv9uXM/k+4NW5fam0Edi5l4OH1JLWONCeLjmUkPEujtK7M5APfJL7WPW7VdgN1hL/mtWi03WHNkbBL5OeRcWCVLjs6IgWUQCufMIjv/QIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAIVSus87l6eMD79dO91U4A76Tc6RkychWMBCoH9MhsTj2PysQ0qCiMKzZMjrEKk2i/rJBum/NdYKTGiIhfGacGZeCJCd8+28VMgtYmUcRGjnuD9HUu2kXQ+LulRTcM/7P4Ue6aD6nRkfeGAtiZSK8LZo6wRJHu7k58RUUzTtIjGZ</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
