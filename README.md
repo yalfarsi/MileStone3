@@ -23,6 +23,7 @@ Moreover, it should keep the user’s data secure so that the user can freely ad
 
 We built this application to help everyone to order whatever they want from the menu we have, and our goal is to keep all personal and sensitive information secured and no one can reach except those who are authorized.   
 
+Here is a link to the trello card https://trello.com/b/dRvar2te/milestone-3 
 
 # Installation Instructions 
 
