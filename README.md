@@ -6,6 +6,12 @@ Have you ever felt hungry and it is too late and you cannot move from your bed t
 Our projest is an app that will help the customers to order the meal they want, and make a payment with the same app. Our app also helps the customers to track their order by entering the order number.  So the main idea is to provide a new experience for all customers, and our goal is to increase customers satisfaction in the first few months of launching. 
 
 
+# Activity Diagrams for Last Two User Storeis 
+
+
+
+
+
 
 # User Story Realization
 
