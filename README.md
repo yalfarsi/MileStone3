@@ -7,7 +7,7 @@ Our projest is an app that will help the customers to order the meal they want, 
 
 
 # Activity Diagrams for Last Two User Storeis 
-
+![activity1](https://cloud.githubusercontent.com/assets/25232812/25718321/31044a0a-30cb-11e7-817d-37e8aec5a3c0.png)
 
 
 
